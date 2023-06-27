@@ -1,0 +1,4480 @@
+{
+  "AAA_DIAGNOSTICS_VIEW": {
+    "TIMESTAMP_TIMEZONE": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "SESSION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "USERNAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "MESSAGE_SEVERITY": {
+      "type": "VARCHAR2",
+      "size": 10
+    },
+    "MESSAGE_CODE": {
+      "type": "VARCHAR2",
+      "size": 10
+    },
+    "MESSAGE_TEXT": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "CATEGORY": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "INFO": {
+      "type": "VARCHAR2",
+      "size": 4000
+    }
+  },
+  "ADAPTER_STATUS": {
+    "LOGGED_AT": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "STATUS": {
+      "type": "VARCHAR2",
+      "size": 256
+    },
+    "ID": {
+      "type": "VARCHAR2",
+      "size": 256
+    },
+    "ADAPTER_NAME": {
+      "type": "VARCHAR2",
+      "size": 256
+    },
+    "CONNECTIVITY": {
+      "type": "VARCHAR2",
+      "size": 256
+    }
+  },
+  "ADAPTIVE_NETWORK_CONTROL": {
+    "LOGGED_AT": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ENDPOINT_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IPV6_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 330
+    },
+    "OPERATION_TYPE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "OPERATION_STATUS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUDIT_SESSION": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ADMIN_IDENTITY": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ADMIN_IP": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    }
+  },
+  "ADMINISTRATOR_LOGINS": {
+    "TIMESTAMP_TIMEZONE": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ADMIN_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "IPV6_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "INTERFACE": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "ADMIN_SESSION": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "EVENT_DETAILS": {
+      "type": "VARCHAR2",
+      "size": 2000
+    },
+    "EVENT": {
+      "type": "VARCHAR2",
+      "size": 3000
+    }
+  },
+  "ADMIN_USERS": {
+    "ID": {
+      "type": "VARCHAR2",
+      "size": 36
+    },
+    "STATUS": {
+      "type": "VARCHAR2",
+      "size": 8
+    },
+    "NAME": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "DESCRIPTION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "FIRST_NAME": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "LAST_NAME": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "EMAIL_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "ADMIN_GROUP": {
+      "type": "VARCHAR2",
+      "size": 255
+    }
+  },
+  "AUP_ACCEPTANCE_STATUS": {
+    "ID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "TIMESTAMP_TIMEZONE": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "MESSAGE_CODE": {
+      "type": "VARCHAR2",
+      "size": 10
+    },
+    "USERNAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "MAC_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "PORTAL_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "AUP_ACCEPTANCE": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "FIRST_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "LAST_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "IDENTITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "EMAIL_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "PHONE_NUMBER": {
+      "type": "VARCHAR2",
+      "size": 20
+    },
+    "COMPANY": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "IDENTITY_STORE": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "NAD_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "NAS_IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "USER_DETAILS": {
+      "type": "VARCHAR2",
+      "size": 989
+    }
+  },
+  "AUTHORIZATION_PROFILES": {
+    "NAME": {
+      "type": "VARCHAR2",
+      "size": 2000
+    },
+    "DESCRIPTION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    }
+  },
+  "CHANGE_CONFIGURATION_AUDIT": {
+    "ID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "TIMESTAMP_TIMEZONE": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "MESSAGE_CODE": {
+      "type": "VARCHAR2",
+      "size": 10
+    },
+    "ADMIN_NAME": {
+      "type": "VARCHAR2",
+      "size": 2000
+    },
+    "NAS_IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "NAS_IPV6_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "INTERFACE": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "OBJECT_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "OBJECT_TYPE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "MESSAGE_CLASS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "EVENT": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "REQUESTED_OPERATION": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "OPERATION_MESSAGE_TEXT": {
+      "type": "VARCHAR2",
+      "size": 2000
+    },
+    "HOST_ID": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "REQUEST_RESPONSE_TYPE": {
+      "type": "VARCHAR2",
+      "size": 10
+    },
+    "FAILURE_FLAG": {
+      "type": "VARCHAR2",
+      "size": 10
+    },
+    "MODIFIED_PROPERTIES": {
+      "type": "CLOB",
+      "size": 4000
+    },
+    "DETAILS": {
+      "type": "VARCHAR2",
+      "size": 2000
+    },
+    "OBJECT_ID": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "APPLIED_TO_ACS_INSTANCE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "LOCAL_MODE": {
+      "type": "NUMBER",
+      "size": 22
+    }
+  },
+  "COA_EVENTS": {
+    "LOGGED_AT": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "COA_EVENT_ID": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "COA_STATUS": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "CALLING_STATION_ID": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "USERNAME": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "NEW_AUTHZ_RULE": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "OLD_AUTHZ_PROFILE": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "NEW_AUTHZ_PROFILE": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "VENDOR_NAME": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "INCIDENT_TYPE": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "THREAT_EVENTS": {
+      "type": "VARCHAR2",
+      "size": 1024
+    },
+    "OPERATION_MESSAGE_TEXT": {
+      "type": "VARCHAR2",
+      "size": 3900
+    }
+  },
+  "ENDPOINTS_DATA": {
+    "ENDPOINT_POLICY_ID": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "MATCHED_POLICY_ID": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "NMAP_SUBNET_SCANID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "PORTAL_USER": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "AUTH_STORE_ID": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "DEVICE_REGISTRATIONS_STATUS": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "REG_TIMESTAMP": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "POSTURE_APPLICABLE": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "CREATE_TIME": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "UPDATE_TIME": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "PROFILE_SERVER": {
+      "type": "VARCHAR2",
+      "size": 400
+    },
+    "BYOD_REG": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "HOSTNAME": {
+      "type": "VARCHAR2",
+      "size": 400
+    },
+    "VERSION": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "POSTURE_EXPIRY": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "NATIVE_UDID": {
+      "type": "VARCHAR2",
+      "size": 64
+    },
+    "PHONE_ID": {
+      "type": "VARCHAR2",
+      "size": 128
+    },
+    "PHONE_ID_TYPE": {
+      "type": "VARCHAR2",
+      "size": 16
+    },
+    "MDM_SERVER_ID": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "UNIQUE_SUBJECT_ID": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "MDM_GUID": {
+      "type": "VARCHAR2",
+      "size": 256
+    },
+    "ENDPOINT_UNIQUE_ID": {
+      "type": "VARCHAR2",
+      "size": 256
+    },
+    "ENDPOINT_ID": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "PROBE_DATA": {
+      "type": "VARCHAR2",
+      "size": 32767
+    },
+    "CUSTOM_ATTRIBUTES": {
+      "type": "VARCHAR2",
+      "size": 32767
+    },
+    "ID": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "MAC_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "ENDPOINT_POLICY": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "STATIC_ASSIGNMENT": {
+      "type": "VARCHAR2",
+      "size": 5
+    },
+    "STATIC_GROUP_ASSIGNMENT": {
+      "type": "VARCHAR2",
+      "size": 5
+    },
+    "IDENTITY_GROUP_ID": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "ENDPOINT_IP": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "ENDPOINT_POLICY_VERSION": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "MATCHED_VALUE": {
+      "type": "VARCHAR2",
+      "size": 100
+    }
+  },
+  "ENDPOINT_IDENTITY_GROUPS": {
+    "ID": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "NAME": {
+      "type": "VARCHAR2",
+      "size": 2000
+    },
+    "DESCRIPTION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "CREATED_BY": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "CREATE_TIME": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "UPDATE_TIME": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "STATUS": {
+      "type": "VARCHAR2",
+      "size": 10
+    }
+  },
+  "ENDPOINT_PURGE_VIEW": {
+    "ID1": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "ENDPOINT_PURGE_ID": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "RUNTIME": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ACSVIEW_TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "PROFILER_SERVER": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ENDPOINT_PURGE_RULE": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "ENDPOINT_COUNT": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "ID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "RUN_TIME": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    }
+  },
+  "EXT_ID_SRC_ACTIVE_DIRECTORY": {
+    "NAME": {
+      "type": "VARCHAR2",
+      "size": 2000
+    }
+  },
+  "EXT_ID_SRC_CERT_AUTH_PROFILE": {
+    "NAME": {
+      "type": "VARCHAR2",
+      "size": 2000
+    },
+    "DESCRIPTION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    }
+  },
+  "EXT_ID_SRC_LDAP": {
+    "NAME": {
+      "type": "VARCHAR2",
+      "size": 2000
+    },
+    "DESCRIPTION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    }
+  },
+  "EXT_ID_SRC_ODBC": {
+    "NAME": {
+      "type": "VARCHAR2",
+      "size": 2000
+    },
+    "DESCRIPTION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    }
+  },
+  "EXT_ID_SRC_RADIUS_TOKEN": {
+    "NAME": {
+      "type": "VARCHAR2",
+      "size": 2000
+    },
+    "DESCRIPTION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    }
+  },
+  "EXT_ID_SRC_REST": {
+    "NAME": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "DESCRIPTION": {
+      "type": "VARCHAR2",
+      "size": 255
+    }
+  },
+  "EXT_ID_SRC_RSA_SECURID": {
+    "NAME": {
+      "type": "VARCHAR2",
+      "size": 2000
+    }
+  },
+  "EXT_ID_SRC_SAML_ID_PROVIDERS": {
+    "NAME": {
+      "type": "VARCHAR2",
+      "size": 2000
+    },
+    "DESCRIPTION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    }
+  },
+  "EXT_ID_SRC_SOCIAL_LOGIN": {
+    "NAME": {
+      "type": "VARCHAR2",
+      "size": 2000
+    },
+    "DESCRIPTION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    }
+  },
+  "FAILURE_CODE_CAUSE": {
+    "FAILURE_CODE": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "FAILURE_CAUSE": {
+      "type": "VARCHAR2",
+      "size": 3000
+    }
+  },
+  "GUEST_ACCOUNTING": {
+    "LOGGED_AT": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "IDENTITY": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "TIME_SPENT": {
+      "type": "VARCHAR2",
+      "size": 18
+    },
+    "LOGGED_IN": {
+      "type": "VARCHAR2",
+      "size": 23
+    },
+    "LOGGED_OUT": {
+      "type": "VARCHAR2",
+      "size": 23
+    },
+    "ENDPOINT_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 500
+    }
+  },
+  "GUEST_DEVICELOGIN_AUDIT": {
+    "ENDPOINT_PROFILER_SERVER": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "NAD_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 20
+    },
+    "NAS_IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 20
+    },
+    "IDENTITY_STORE_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "IDENTITY_STORE_GUID": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "DESCRIPTION": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "USER_DETAILS": {
+      "type": "VARCHAR2",
+      "size": 986
+    },
+    "PORTAL_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "DEVICE_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "DEVICE_DETAILS": {
+      "type": "VARCHAR2",
+      "size": 6757
+    },
+    "MAC_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "OPERATION": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "RESULT": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "FAILURE_REASON": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTH_IDENTITY_STORE": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "SERVER": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "LOGGED_AT": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "USERNAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "MESSAGE_CODE": {
+      "type": "VARCHAR2",
+      "size": 10
+    },
+    "FIRST_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "LAST_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "IDENTITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "EMAIL_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "PHONE_NUMBER": {
+      "type": "VARCHAR2",
+      "size": 20
+    },
+    "COMPANY": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "STATIC_ASSIGNMENT": {
+      "type": "VARCHAR2",
+      "size": 100
+    }
+  },
+  "KEY_PERFORMANCE_METRICS": {
+    "LOGGED_TIME": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "RADIUS_REQUESTS_HR": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "LOGGED_TO_MNT_HR": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "NOISE_HR": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "SUPPRESSION_HR": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "AVG_LOAD": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "MAX_LOAD": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "AVG_LATENCY_PER_REQ": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "AVG_TPS": {
+      "type": "NUMBER",
+      "size": 22
+    }
+  },
+  "LOGICAL_PROFILES": {
+    "LOGICAL_PROFILE": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "SYSTEM_TYPE": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "DESCRIPTION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "ASSIGNED_POLICIES": {
+      "type": "VARCHAR2",
+      "size": 2000
+    }
+  },
+  "MISCONFIGURED_NAS_VIEW": {
+    "ID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "ACSVIEW_TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ACS_SERVER": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "MESSAGE_CODE": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "NAS_IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "CALLING_STATION_ID": {
+      "type": "VARCHAR2",
+      "size": 330
+    },
+    "DETAIL_INFO": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "FAILED_ATTEMPTS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "FAILED_TIMES": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "OTHER_ATTRIBUTES": {
+      "type": "CLOB",
+      "size": 4000
+    },
+    "NAS_IPV6_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 330
+    },
+    "ACS_TIMESTAMP": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "FAILED_TIMES_IN_HOURS": {
+      "type": "VARCHAR2",
+      "size": 13
+    },
+    "MESSAGE_TEXT": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "TIMESTAMP_TIMEZONE": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "FAILED_TIMES_HOURS": {
+      "type": "VARCHAR2",
+      "size": 13
+    }
+  },
+  "MISCONFIGURED_SUPPLICANTS_VIEW": {
+    "MDM_SERVER_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "NAS_IPV6_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 40
+    },
+    "FRAMED_IPV6_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 330
+    },
+    "OTHER_ATTR_STRING": {
+      "type": "CLOB",
+      "size": 4000
+    },
+    "MESSAGE_TEXT": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "ID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "ACS_TIMESTAMP": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "ACSVIEW_TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ACS_SERVER": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "MESSAGE_CODE": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "USER_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "USER_TYPE": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "CALLING_STATION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCESS_SERVICE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "FRAMED_IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IDENTITY_STORE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IDENTITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "AUDIT_SESSION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTHENTICATION_METHOD": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "AUTHENTICATION_PROTOCOL": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "SERVICE_TYPE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "NETWORK_DEVICE_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_TYPE": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "LOCATION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "NAS_IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "NAS_PORT_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "NAS_PORT_TYPE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "SELECTED_AZN_PROFILES": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "POSTURE_STATUS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "CTS_SECURITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "FAILURE_REASON": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "RESPONSE": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "EXECUTION_STEPS": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "OTHER_ATTRIBUTES": {
+      "type": "BLOB",
+      "size": 4000
+    },
+    "RESPONSE_TIME": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "PASSED": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "FAILED": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "CREDENTIAL_CHECK": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "ENDPOINTMATCHEDPROFILE": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "ENDPOINT_PROFILE": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "TIMESTAMP_TIMEZONE": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "USERNAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "SELECTED_AUTHORIZATION_PROFILES": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "SECURITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 500
+    }
+  },
+  "NETWORK_ACCESS_USERS": {
+    "ID": {
+      "type": "VARCHAR2",
+      "size": 36
+    },
+    "STATUS": {
+      "type": "VARCHAR2",
+      "size": 8
+    },
+    "USERNAME": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "DESCRIPTION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "FIRST_NAME": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "LAST_NAME": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "EMAIL_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "IDENTITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 32767
+    },
+    "IS_ADMIN": {
+      "type": "VARCHAR2",
+      "size": 3
+    },
+    "ALLOW_PASSWORD_CHANGE_AFTER_LOGIN": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "CURRENT_SUCCESSFUL_LOGIN_TIME": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "LAST_SUCCESSFUL_LOGIN_TIME": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "LAST_UNSUCCESSFUL_LOGIN_TIME": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "SUCCESS_LOGIN_IPADDRESS": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "FAILED_LOGIN_IPADDRESS": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "EXPIRY_DATE_ENABLED": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "EXPIRY_DATE": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "ACCOUNT_NAME_ALIAS": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "PASSWORD_LAST_UPDATED_ON": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "PASSWORD_NEVER_EXPIRES": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "ALARM_EMAILABLE": {
+      "type": "NUMBER",
+      "size": 22
+    }
+  },
+  "NETWORK_DEVICES": {
+    "ID": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "IP_MASK": {
+      "type": "VARCHAR2",
+      "size": 256
+    },
+    "PROFILE_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "LOCATION": {
+      "type": "VARCHAR2",
+      "size": 256
+    },
+    "TYPE": {
+      "type": "VARCHAR2",
+      "size": 256
+    }
+  },
+  "NETWORK_DEVICE_GROUPS": {
+    "ID": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "NAME": {
+      "type": "VARCHAR2",
+      "size": 2000
+    },
+    "DESCRIPTION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "CREATED_BY": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "CREATE_TIME": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "UPDATE_TIME": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "ACTIVE_STATUS": {
+      "type": "VARCHAR2",
+      "size": 10
+    }
+  },
+  "NODE_LIST": {
+    "HOSTNAME": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "NODE_TYPE": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "GATEWAY": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "NODE_ROLE": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "ACTIVE_STATUS": {
+      "type": "VARCHAR2",
+      "size": 10
+    },
+    "REPLICATION_STATUS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "PDP_SERVICES": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "HOST_ALIAS": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "CREATE_TIME": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "UPDATE_TIME": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "XGRID_ENABLED": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "XGRID_PEER": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "UDI_PID": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "UDI_VID": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "UDI_SN": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "UDI_PT": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "PATCH_VERSION": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "PIC_NODE": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "INSTALLATION_TYPE": {
+      "type": "VARCHAR2",
+      "size": 3
+    },
+    "VM_INFO": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "API_NODE": {
+      "type": "NUMBER",
+      "size": 22
+    }
+  },
+  "OPENAPI_OPERATIONS": {
+    "LOGGED_AT": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "MESSAGE_TEXT": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "REQUEST_TIME": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "REQUEST_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "HTTP_METHOD": {
+      "type": "VARCHAR2",
+      "size": 36
+    },
+    "REQUEST_ID": {
+      "type": "VARCHAR2",
+      "size": 36
+    },
+    "REQUEST_BODY": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "RESPONSE": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "HTTP_CODE": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "HTTP_STATUS": {
+      "type": "VARCHAR2",
+      "size": 36
+    },
+    "ERROR_MESSAGE": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "SERVER": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "RESPONSE_DURATION": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "CLIENT_IP": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ADMINISTRATOR": {
+      "type": "VARCHAR2",
+      "size": 500
+    }
+  },
+  "POLICY_SETS": {
+    "ID": {
+      "type": "VARCHAR2",
+      "size": 36
+    },
+    "CREATE_TIME": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "UPDATE_TIME": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "POLICYSET_STATUS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "POLICYSET_NAME": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "DESCRIPTION": {
+      "type": "VARCHAR2",
+      "size": 255
+    }
+  },
+  "POSTURE_ASSESSMENT_BY_CONDITION": {
+    "LOGGED_AT": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "POLICY": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "POLICY_STATUS": {
+      "type": "VARCHAR2",
+      "size": 20
+    },
+    "ENFORCEMENT_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "ENFORCEMENT_TYPE": {
+      "type": "VARCHAR2",
+      "size": 20
+    },
+    "ENFORCEMENT_STATUS": {
+      "type": "VARCHAR2",
+      "size": 20
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "MESSAGE_CODE": {
+      "type": "VARCHAR2",
+      "size": 10
+    },
+    "REQUEST_TIME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "RESPONSE_TIME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "ENDPOINT_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ENDPOINT_OS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "POSTURE_AGENT_VERSION": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "POSTURE_STATUS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "POSTURE_POLICY_MATCHED": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "POSTURE_REPORT": {
+      "type": "CLOB",
+      "size": 4000
+    },
+    "ANTI_VIRUS_INSTALLED": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "ANTI_SPYWARE_INSTALLED": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "FAILURE_REASON": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "PRA_ENFORCEMENT": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "PRA_INTERVAL": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "PRA_ACTION": {
+      "type": "VARCHAR2",
+      "size": 64
+    },
+    "PRA_GRACE_TIME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "IDENTITY": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "SESSION_ID": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "FEED_URL": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "NUM_OF_UPDATES": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "USER_AGREEMENT_STATUS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "SYSTEM_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "SYSTEM_DOMAIN": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "SYSTEM_USER": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "SYSTEM_USER_DOMAIN": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 39
+    },
+    "AM_INSTALLED": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "CONDITION_NAME": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "CONDITION_STATUS": {
+      "type": "VARCHAR2",
+      "size": 10
+    },
+    "LOCATION": {
+      "type": "VARCHAR2",
+      "size": 500
+    }
+  },
+  "POSTURE_ASSESSMENT_BY_ENDPOINT": {
+    "ENDPOINT_MAC_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ENDPOINT_OPERATING_SYSTEM": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "POSTURE_AGENT_VERSION": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "POSTURE_STATUS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "POSTURE_POLICY_MATCHED": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "POSTURE_REPORT": {
+      "type": "CLOB",
+      "size": 4000
+    },
+    "ANTI_VIRUS_INSTALLED": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "ANTI_SPYWARE_INSTALLED": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "FAILURE_REASON": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "PRA_ENFORCEMENT_FLAG": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "PRA_INTERVAL": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "PRA_ACTION": {
+      "type": "VARCHAR2",
+      "size": 64
+    },
+    "USERNAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "SESSION_ID": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "FEED_URL": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "NUM_OF_UPDATES": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "USER_AGREEMENT_STATUS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "SYSTEM_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "SYSTEM_DOMAIN": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "SYSTEM_USER": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "SYSTEM_USER_DOMAIN": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 39
+    },
+    "PRA_GRACE_TIME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "NAD_LOCATION": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AM_INSTALLED": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "MESSAGE_TEXT": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "ID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "TIMESTAMP_TIMEZONE": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "MESSAGE_CODE": {
+      "type": "VARCHAR2",
+      "size": 10
+    },
+    "REQUEST_TIME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "RESPONSE_TIME": {
+      "type": "VARCHAR2",
+      "size": 100
+    }
+  },
+  "POSTURE_GRACE_PERIOD": {
+    "MAC_LIST": {
+      "type": "VARCHAR2",
+      "size": 256
+    },
+    "LAST_GRACE_EXPIRY": {
+      "type": "VARCHAR2",
+      "size": 256
+    }
+  },
+  "POSTURE_SCRIPT_CONDITION": {
+    "LOGGED_AT": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "STATUS": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "POLICY_NAME": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "REQUIREMENT_NAME": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "SESSION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ENDPOINT_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "UDID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "CONDITION_NAME": {
+      "type": "VARCHAR2",
+      "size": 1000
+    }
+  },
+  "POSTURE_SCRIPT_REMEDIATION": {
+    "LOGGED_AT": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "STATUS": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "POLICY_NAME": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "REQUIREMENT_NAME": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "SESSION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ENDPOINT_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "UDID": {
+      "type": "VARCHAR2",
+      "size": 500
+    }
+  },
+  "PRIMARY_GUEST": {
+    "TIME_SPENT": {
+      "type": "VARCHAR2",
+      "size": 18
+    },
+    "LOGGED_IN": {
+      "type": "VARCHAR2",
+      "size": 23
+    },
+    "LOGGED_OUT": {
+      "type": "VARCHAR2",
+      "size": 23
+    },
+    "OPTIONAL_DATA": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "IDENTITY_STORE": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "NAD_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "SERVER": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "SPONSOR_USER_DETAILS": {
+      "type": "VARCHAR2",
+      "size": 986
+    },
+    "GUEST_USER_DETAILS": {
+      "type": "VARCHAR2",
+      "size": 8518
+    },
+    "DETAILS": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "MAC_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "SPONSOR_USERNAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "GUEST_USERNAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "GUEST_USERS": {
+      "type": "CLOB",
+      "size": 32765
+    },
+    "OPERATION": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "AUP_ACCEPTANCE": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "LOGGED_AT": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "MESSAGE": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "PORTAL_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "RESULT": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "SPONSOR_FIRST_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "SPONSOR_LAST_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "IDENTITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "SPONSOR_EMAIL_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "SPONSOR_PHONE_NUMBER": {
+      "type": "VARCHAR2",
+      "size": 20
+    },
+    "SPONSOR_COMPANY": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "GUEST_LAST_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "GUEST_FIRST_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "GUEST_EMAIL_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "GUEST_PHONE_NUMBER": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "GUEST_COMPANY": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "GUEST_STATUS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "GUEST_TYPE": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "VALID_DAYS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "FROM_DATE": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "TO_DATE": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "LOCATION": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "SSID": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "GROUP_TAG": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "GUEST_PERSON_VISITED": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "GUEST_REASON_FOR_VISIT": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "NAS_IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "USER_LINK": {
+      "type": "CHAR",
+      "size": 11
+    },
+    "GUEST_LINK": {
+      "type": "CHAR",
+      "size": 12
+    },
+    "FAILURE_REASON": {
+      "type": "VARCHAR2",
+      "size": 500
+    }
+  },
+  "PROFILED_ENDPOINTS_SUMMARY": {
+    "ID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ENDPOINT_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ENDPOINT_PROFILE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "SOURCE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "HOST": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ENDPOINT_ACTION_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "MESSAGE_CODE": {
+      "type": "VARCHAR2",
+      "size": 10
+    },
+    "IDENTITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 500
+    }
+  },
+  "PROFILING_POLICIES": {
+    "PROFILING_POLICY_NAME": {
+      "type": "VARCHAR2",
+      "size": 2000
+    },
+    "DESCRIPTION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    }
+  },
+  "PXGRID_DIRECT_DATA": {
+    "EDDA_ID": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "CONNECTOR_TYPE": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "CREATE_TIME": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "BULK_ID": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "VERSION": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "VERSION_TYPE": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "NAME": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "DATA": {
+      "type": "VARCHAR2",
+      "size": 32767
+    }
+  },
+  "RADIUS_ACCOUNTING": {
+    "ACCT_STATUS_TYPE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_SESSION_TIME": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "SERVICE_TYPE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "FRAMED_PROTOCOL": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_INPUT_OCTETS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_OUTPUT_OCTETS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_INPUT_PACKETS": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "ACCT_OUTPUT_PACKETS": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "FRAMED_IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "NAS_PORT": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "NAS_IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_TERMINATE_CAUSE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCESS_SERVICE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUDIT_SESSION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_MULTI_SESSION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_AUTHENTIC": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "TERMINATION_ACTION": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "SESSION_TIMEOUT": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IDLE_TIMEOUT": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_INTERIM_INTERVAL": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_DELAY_TIME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "EVENT_TIMESTAMP": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "NAS_IDENTIFIER": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "NAS_PORT_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_TUNNEL_CONNECTION": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_TUNNEL_PACKET_LOST": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_GROUPS": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "SERVICE_SELECTION_POLICY": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IDENTITY_STORE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AD_DOMAIN": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IDENTITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTHORIZATION_POLICY": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "FAILURE_REASON": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "SECURITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "CISCO_H323_SETUP_TIME": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "CISCO_H323_CONNECT_TIME": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "CISCO_H323_DISCONNECT_TIME": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "RESPONSE_TIME": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "STARTED": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "STOPPED": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "NAS_IPV6_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 40
+    },
+    "FRAMED_IPV6_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 330
+    },
+    "TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "VN": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "ID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "TIMESTAMP_TIMEZONE": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "SYSLOG_MESSAGE_CODE": {
+      "type": "VARCHAR2",
+      "size": 10
+    },
+    "SESSION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "USERNAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "USER_TYPE": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "CALLING_STATION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_SESSION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    }
+  },
+  "RADIUS_ACCOUNTING_WEEK": {
+    "CISCO_H323_CONNECT_TIME": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "CISCO_H323_DISCONNECT_TIME": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "RESPONSE_TIME": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "STARTED": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "STOPPED": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "NAS_IPV6_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 40
+    },
+    "FRAMED_IPV6_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 330
+    },
+    "TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "VN": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "ID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "TIMESTAMP_TIMEZONE": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "SYSLOG_MESSAGE_CODE": {
+      "type": "VARCHAR2",
+      "size": 10
+    },
+    "SESSION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "USERNAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "USER_TYPE": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "CALLING_STATION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_SESSION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_STATUS_TYPE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_SESSION_TIME": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "SERVICE_TYPE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "FRAMED_PROTOCOL": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_INPUT_OCTETS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_OUTPUT_OCTETS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_INPUT_PACKETS": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "ACCT_OUTPUT_PACKETS": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "FRAMED_IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "NAS_PORT": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "NAS_IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_TERMINATE_CAUSE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCESS_SERVICE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUDIT_SESSION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_MULTI_SESSION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_AUTHENTIC": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "TERMINATION_ACTION": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "SESSION_TIMEOUT": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IDLE_TIMEOUT": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_INTERIM_INTERVAL": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_DELAY_TIME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "EVENT_TIMESTAMP": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "NAS_IDENTIFIER": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "NAS_PORT_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_TUNNEL_CONNECTION": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCT_TUNNEL_PACKET_LOST": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_GROUPS": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "SERVICE_SELECTION_POLICY": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IDENTITY_STORE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AD_DOMAIN": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IDENTITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTHORIZATION_POLICY": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "FAILURE_REASON": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "SECURITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "CISCO_H323_SETUP_TIME": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    }
+  },
+  "RADIUS_AUTHENTICATIONS": {
+    "ID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "TIMESTAMP_TIMEZONE": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "SYSLOG_MESSAGE_CODE": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "USERNAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "USER_TYPE": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "CALLING_STATION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCESS_SERVICE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "FRAMED_IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IDENTITY_STORE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IDENTITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "AUDIT_SESSION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTHENTICATION_METHOD": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "AUTHENTICATION_PROTOCOL": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "SERVICE_TYPE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_TYPE": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "LOCATION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "NAS_IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "NAS_PORT_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "NAS_PORT_TYPE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTHORIZATION_PROFILES": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "POSTURE_STATUS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "SECURITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "FAILURE_REASON": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "RESPONSE_TIME": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "PASSED": {
+      "type": "VARCHAR2",
+      "size": 7
+    },
+    "FAILED": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "CREDENTIAL_CHECK": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "ENDPOINT_PROFILE": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "MDM_SERVER_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "POLICY_SET_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "AUTHORIZATION_RULE": {
+      "type": "VARCHAR2",
+      "size": 2000
+    },
+    "NAS_IPV6_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 40
+    },
+    "FRAMED_IPV6_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 330
+    },
+    "ORIG_CALLING_STATION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "CHECKSUM": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    }
+  },
+  "RADIUS_AUTHENTICATIONS_WEEK": {
+    "ID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "TIMESTAMP_TIMEZONE": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "SYSLOG_MESSAGE_CODE": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "USERNAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "USER_TYPE": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "CALLING_STATION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCESS_SERVICE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "FRAMED_IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IDENTITY_STORE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IDENTITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "AUDIT_SESSION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTHENTICATION_METHOD": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "AUTHENTICATION_PROTOCOL": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "SERVICE_TYPE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_TYPE": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "LOCATION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "NAS_IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "NAS_PORT_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "NAS_PORT_TYPE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTHORIZATION_PROFILES": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "POSTURE_STATUS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "SECURITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "FAILURE_REASON": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "RESPONSE_TIME": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "PASSED": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "FAILED": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "CREDENTIAL_CHECK": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "ENDPOINT_PROFILE": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "MDM_SERVER_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "POLICY_SET_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "AUTHORIZATION_RULE": {
+      "type": "VARCHAR2",
+      "size": 2000
+    },
+    "NAS_IPV6_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 40
+    },
+    "FRAMED_IPV6_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 330
+    },
+    "ORIG_CALLING_STATION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "CHECKSUM": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "AUTHENTICATION_POLICY": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "AUTHORIZATION_POLICY": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "NAD_PROFILE_NAME": {
+      "type": "VARCHAR2",
+      "size": 65
+    }
+  },
+  "RADIUS_AUTHENTICATION_SUMMARY": {
+    "TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "USERNAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "CALLING_STATION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IDENTITY_STORE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IDENTITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "DEVICE_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_TYPE": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "LOCATION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "ACCESS_SERVICE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "NAS_PORT_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTHORIZATION_PROFILES": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "FAILURE_REASON": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "SECURITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "TOTAL_RESPONSE_TIME": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "MAX_RESPONSE_TIME": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "PASSED_COUNT": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "FAILED_COUNT": {
+      "type": "NUMBER",
+      "size": 22
+    }
+  },
+  "RADIUS_ERRORS_VIEW": {
+    "FRAMED_IPV6_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 330
+    },
+    "MAPLOCATION": {
+      "type": "VARCHAR2",
+      "size": 2500
+    },
+    "MSE_RESPONSE_TIME": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "MSE_SERVER_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "ACS_TIMESTAMP": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "ACSVIEW_TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ACS_SERVER": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "MESSAGE_CODE": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "MESSAGETEXT": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "USER_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "USER_TYPE": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "CALLING_STATION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ACCESS_SERVICE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "FRAMED_IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IDENTITY_STORE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IDENTITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "AUDIT_SESSION_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTHENTICATION_METHOD": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "AUTHENTICATION_PROTOCOL": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "SERVICE_TYPE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "NETWORK_DEVICE_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_TYPE": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "LOCATION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "NAS_IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "NAS_PORT_ID": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "NAS_PORT_TYPE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "SELECTED_AZN_PROFILES": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "POSTURE_STATUS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "CTS_SECURITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "FAILURE_REASON": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "RESPONSE": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "EXECUTION_STEPS": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "OTHER_ATTRIBUTES": {
+      "type": "BLOB",
+      "size": 4000
+    },
+    "AUTHENTICATION_POLICY": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "AUTHORIZATION_POLICY": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "OTHER_ATTR_STRING": {
+      "type": "CLOB",
+      "size": 4000
+    },
+    "RESPONSE_TIME": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "PASSED": {
+      "type": "VARCHAR2",
+      "size": 7
+    },
+    "FAILED": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "CREDENTIAL_CHECK": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "ENDPOINTMATCHEDPROFILE": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "MDM_SERVER_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "NAS_IPV6_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 40
+    },
+    "OTHER_ATTRIBUTES_STRING": {
+      "type": "CLOB",
+      "size": 4000
+    },
+    "ENDPOINT_PROFILE": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "TIMESTAMP_TIMEZONE": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "MESSAGE_TEXT": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "USERNAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "SELECTED_AUTHORIZATION_PROFILES": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "SECURITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 500
+    }
+  },
+  "REGISTERED_ENDPOINTS": {
+    "ENDPOINT_ID": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "ENDPOINT_PROFILE": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "ENDPOINT_STATIC_ASSIGNMENT": {
+      "type": "VARCHAR2",
+      "size": 5
+    },
+    "STATIC_ASSIGNMENT_GROUP": {
+      "type": "VARCHAR2",
+      "size": 5
+    },
+    "NMAP_SUBNET_SCANID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "CREATE_TIME": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "LOGGED_AT": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "IDENTITY": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "DEVICE_REGISTRATION_STATUS": {
+      "type": "VARCHAR2",
+      "size": 14
+    },
+    "IDENTITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 2000
+    },
+    "SERVER": {
+      "type": "VARCHAR2",
+      "size": 400
+    }
+  },
+  "SECURITY_GROUPS": {
+    "NAME": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "SGT_DEC": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "SGT_HEX": {
+      "type": "VARCHAR2",
+      "size": 7
+    },
+    "DESCRIPTION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "LEARNED_FROM": {
+      "type": "VARCHAR2",
+      "size": 100
+    }
+  },
+  "SECURITY_GROUP_ACLS": {
+    "NAME": {
+      "type": "VARCHAR2",
+      "size": 2000
+    },
+    "DESCRIPTION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "IP_VERSION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    }
+  },
+  "SPONSOR_LOGIN_AND_AUDIT": {
+    "ID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "TIMESTAMP_TIMEZONE": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "SPONSER_USER_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "MAC_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "PORTAL_NAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "RESULT": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "IDENTITY_STORE": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "OPERATION": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "GUEST_USERNAME": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "GUEST_STATUS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "FAILURE_REASON": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "OPTIONAL_DATA": {
+      "type": "VARCHAR2",
+      "size": 1000
+    },
+    "PSN_HOSTNAME": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "USER_DETAILS": {
+      "type": "VARCHAR2",
+      "size": 986
+    },
+    "GUEST_DETAILS": {
+      "type": "VARCHAR2",
+      "size": 8521
+    },
+    "GUEST_USERS": {
+      "type": "CLOB",
+      "size": 32765
+    }
+  },
+  "SYSTEM_DIAGNOSTICS_VIEW": {
+    "ID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "TIMESTAMP_TIMEZONE": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "MESSAGE_SEVERITY": {
+      "type": "VARCHAR2",
+      "size": 10
+    },
+    "MESSAGE_CODE": {
+      "type": "VARCHAR2",
+      "size": 10
+    },
+    "MESSAGE_TEXT": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "CATEGORY": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "DIAGNOSTIC_INFO": {
+      "type": "VARCHAR2",
+      "size": 3000
+    }
+  },
+  "SYSTEM_SUMMARY": {
+    "TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "CPU_UTILIZATION": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "CPU_COUNT": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "MEMORY_UTILIZATION": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "DISKSPACE_ROOT": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "DISKSPACE_BOOT": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "DISKSPACE_OPT": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "DISKSPACE_STOREDCONFIG": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "DISKSPACE_TMP": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "DISKSPACE_RUNTIME": {
+      "type": "NUMBER",
+      "size": 22
+    }
+  },
+  "TACACS_ACCOUNTING": {
+    "ID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "USERNAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IDENTITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "GENERATED_TIME": {
+      "type": "VARCHAR2",
+      "size": 62
+    },
+    "LOGGED_TIME": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTHENTICATION_SERVICE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTHENTICATION_METHOD": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTHENTICATION_PRIVILEGE_LEVEL": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "ATTRIBUTES": {
+      "type": "VARCHAR2",
+      "size": 0
+    },
+    "MESSAGE_TEXT": {
+      "type": "VARCHAR2",
+      "size": 0
+    },
+    "EXECUTION_STEPS": {
+      "type": "VARCHAR2",
+      "size": 0
+    },
+    "AUTHENTICATION_TYPE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "STATUS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "MESSAGE_CODE": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "COMMAND": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "COMMAND_ARGS": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "DEVICE_TYPE": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "LOCATION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "ACCOUNTING_TYPE": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "DEVICE_IPV6": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "EPOCH_TIME": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "FAILURE_REASON": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "SESSION_KEY": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "EVENT": {
+      "type": "VARCHAR2",
+      "size": 128
+    },
+    "DEVICE_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_IP": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_GROUPS": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "DEVICE_PORT": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "REMOTE_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 255
+    }
+  },
+  "TACACS_ACCOUNTING_LAST_TWO_DAYS": {
+    "ID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "USERNAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IDENTITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "GENERATED_TIME": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "LOGGED_TIME": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTHENTICATION_SERVICE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTHENTICATION_METHOD": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTHENTICATION_PRIVILEGE_LEVEL": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "AUTHENTICATION_TYPE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "STATUS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "MESSAGE_CODE": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "COMMAND": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "COMMAND_ARGS": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "DEVICE_TYPE": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "LOCATION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "ACCOUNTING_TYPE": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "DEVICE_IPV6": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "EPOCH_TIME": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "FAILURE_REASON": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "SESSION_KEY": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "EVENT": {
+      "type": "VARCHAR2",
+      "size": 128
+    },
+    "DEVICE_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_IP": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_GROUPS": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "DEVICE_PORT": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "REMOTE_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 255
+    }
+  },
+  "TACACS_AUTHENTICATION": {
+    "AUTHENTICATION_PRIVILEGE_LEVEL": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "ATTRIBUTES": {
+      "type": "BLOB",
+      "size": 4000
+    },
+    "MESSAGE_TEXT": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "EXECUTION_STEPS": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "AUTHENTICATION_ACTION": {
+      "type": "VARCHAR2",
+      "size": 128
+    },
+    "AUTHENTICATION_TYPE": {
+      "type": "VARCHAR2",
+      "size": 64
+    },
+    "AUTHENTICATION_SERVICE": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "SESSION_KEY": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "EVENT": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_IP": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_GROUPS": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "DEVICE_PORT": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "REMOTE_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "SELECTED_AUTHORIZATION_PROFILE": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "DESTINATION_IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "STATUS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "DEVICE_TYPE": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "LOCATION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "IDENTITY_STORE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_IPV6": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "EPOCH_TIME": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "ID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "GENERATED_TIME": {
+      "type": "VARCHAR2",
+      "size": 62
+    },
+    "LOGGED_TIME": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "MESSAGE_CODE": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "USERNAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "FAILURE_REASON": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTHENTICATION_POLICY": {
+      "type": "VARCHAR2",
+      "size": 500
+    }
+  },
+  "TACACS_AUTHENTICATION_LAST_TWO_DAYS": {
+    "ID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "GENERATED_TIME": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "LOGGED_TIME": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "MESSAGE_CODE": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "USERNAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "FAILURE_REASON": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTHENTICATION_POLICY": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTHENTICATION_PRIVILEGE_LEVEL": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "AUTHENTICATION_ACTION": {
+      "type": "VARCHAR2",
+      "size": 128
+    },
+    "AUTHENTICATION_TYPE": {
+      "type": "VARCHAR2",
+      "size": 64
+    },
+    "AUTHENTICATION_SERVICE": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "SESSION_KEY": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "EVENT": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_IP": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_GROUPS": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "DEVICE_PORT": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "REMOTE_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "SELECTED_AUTHORIZATION_PROFILE": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "DESTINATION_IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "STATUS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "DEVICE_TYPE": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "LOCATION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "IDENTITY_STORE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_IPV6": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "EPOCH_TIME": {
+      "type": "NUMBER",
+      "size": 22
+    }
+  },
+  "TACACS_AUTHENTICATION_SUMMARY": {
+    "PASSED_COUNT": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "FAILED_COUNT": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "USERNAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IDENTITY_STORE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_GROUP": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "DEVICE_TYPE": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "LOCATION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "AUTHORIZATION_PROFILES": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "FAILURE_REASON": {
+      "type": "VARCHAR2",
+      "size": 3000
+    }
+  },
+  "TACACS_AUTHORIZATION": {
+    "ID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "GENERATED_TIME": {
+      "type": "VARCHAR2",
+      "size": 36
+    },
+    "LOGGED_TIME": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "ATTRIBUTES": {
+      "type": "BLOB",
+      "size": 4000
+    },
+    "EXECUTION_STEPS": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "STATUS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "EVENT": {
+      "type": "VARCHAR2",
+      "size": 128
+    },
+    "MESSAGE_TEXT": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_IPV6": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_IP": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_GROUP": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "DEVICE_PORT": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "EPOCH_TIME": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "FAILURE_REASON": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "USERNAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTHORIZATION_POLICY": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "AUTHENTICATION_PRIVILEGE_LEVEL": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "AUTHORIZATION_REQUEST_ATTR": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "AUTHORIZATION_RESPONSE_ATTR": {
+      "type": "CLOB",
+      "size": 4000
+    },
+    "SESSION_KEY": {
+      "type": "VARCHAR2",
+      "size": 128
+    },
+    "REMOTE_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "SHELL_PROFILE": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "AUTHENTICATION_METHOD": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "AUTHENTICATION_TYPE": {
+      "type": "VARCHAR2",
+      "size": 64
+    },
+    "AUTHENTICATION_SERVICE": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "DEVICE_TYPE": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "LOCATION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "MATCHED_COMMAND_SET": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "COMMAND_FROM_DEVICE": {
+      "type": "VARCHAR2",
+      "size": 4000
+    }
+  },
+  "TACACS_COMMAND_ACCOUNTING": {
+    "ID": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "USERNAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "GENERATED_TIME": {
+      "type": "VARCHAR2",
+      "size": 62
+    },
+    "LOGGED_TIME": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTHENTICATION_PRIVILEGE_LEVEL": {
+      "type": "VARCHAR2",
+      "size": 50
+    },
+    "ATTRIBUTES": {
+      "type": "BLOB",
+      "size": 4000
+    },
+    "EXECUTION_STEPS": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "STATUS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "EVENT": {
+      "type": "VARCHAR2",
+      "size": 128
+    },
+    "MESSAGE_TEXT": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "FAILURE_REASON": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "IDENTITY_GROUP": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "SESSION_KEY": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_IP": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_GROUPS": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "DEVICE_PORT": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_IPV6": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "REMOTE_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "AUTHENTICATION_METHOD": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTHENTICATION_TYPE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "AUTHENTICATION_SERVICE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "COMMAND": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "COMMAND_ARGS": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "DEVICE_TYPE": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "LOCATION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "EPOCH_TIME": {
+      "type": "NUMBER",
+      "size": 22
+    }
+  },
+  "UPSPOLICY": {
+    "ID": {
+      "type": "VARCHAR2",
+      "size": 36
+    },
+    "EDF_VERSION": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "EDF_CREATE_TIME": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "EDF_UPDATE_TIME": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "COMBININGALGORITHM": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "POLICYTYPEENUM": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "POLICYID": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "POLICYSTATUS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "DISPLAYNAME": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "DESCRIPTION": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "TARGET": {
+      "type": "VARCHAR2",
+      "size": 36
+    }
+  },
+  "UPSPOLICYSET": {
+    "ID": {
+      "type": "VARCHAR2",
+      "size": 36
+    },
+    "EDF_VERSION": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "EDF_CREATE_TIME": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "EDF_UPDATE_TIME": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "COMBININGALGORITHM": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "POLICYSETTYPEENUM": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "POLICYSETID": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "PARENTPOLICYSETID": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "POLICYSETSTATUS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "DISPLAYNAME": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "DESCRIPTION": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "SELFREFERENCE": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "EVALUATETARGET": {
+      "type": "NUMBER",
+      "size": 22
+    },
+    "REFERENCEDPOLICYSETID": {
+      "type": "VARCHAR2",
+      "size": 255
+    },
+    "TARGET": {
+      "type": "VARCHAR2",
+      "size": 36
+    }
+  },
+  "UPSPOLICYSET_POLICIES": {
+    "UPSPOLICYSET": {
+      "type": "VARCHAR2",
+      "size": 36
+    },
+    "POLICIES": {
+      "type": "VARCHAR2",
+      "size": 36
+    }
+  },
+  "THREAT_EVENTS": {
+    "LOGGED_AT": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "MAC_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "ID": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "SEVERITY": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "TITLE": {
+      "type": "VARCHAR2",
+      "size": 2000
+    },
+    "EVENT_TIME": {
+      "type": "VARCHAR2",
+      "size": 256
+    },
+    "VENDOR_NAME": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "SOURCE": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "INCIDENT_TYPE": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "DETAILS": {
+      "type": "VARCHAR2",
+      "size": 3900
+    }
+  },
+  "USER_IDENTITY_GROUPS": {
+    "ID": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "NAME": {
+      "type": "VARCHAR2",
+      "size": 2000
+    },
+    "DESCRIPTION": {
+      "type": "VARCHAR2",
+      "size": 4000
+    },
+    "CREATED_BY": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "CREATE_TIME": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "UPDATE_TIME": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "STATUS": {
+      "type": "VARCHAR2",
+      "size": 10
+    }
+  },
+  "USER_PASSWORD_CHANGES": {
+    "TIMESTAMP_TIMEZONE": {
+      "type": "TIMESTAMP(6) WITH TIME ZONE",
+      "size": 13
+    },
+    "TIMESTAMP": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "MESSAGE_CODE": {
+      "type": "VARCHAR2",
+      "size": 10
+    },
+    "ADMIN_NAME": {
+      "type": "VARCHAR2",
+      "size": 2000
+    },
+    "ADMIN_IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "ADMIN_IPV6_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "ADMIN_INTERFACE": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "MESSAGE_CLASS": {
+      "type": "VARCHAR2",
+      "size": 100
+    },
+    "MESSAGE_TEXT": {
+      "type": "VARCHAR2",
+      "size": 3000
+    },
+    "OPERATOR_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "USER_ADMIN_FLAG": {
+      "type": "VARCHAR2",
+      "size": 10
+    },
+    "ACCOUNT_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "DEVICE_IP": {
+      "type": "VARCHAR2",
+      "size": 200
+    },
+    "IDENTITY_STORE_NAME": {
+      "type": "VARCHAR2",
+      "size": 500
+    },
+    "CHANGE_PASSWORD_METHOD": {
+      "type": "VARCHAR2",
+      "size": 10
+    },
+    "AUDIT_PASSWORD_TYPE": {
+      "type": "VARCHAR2",
+      "size": 10
+    }
+  },
+  "VULNERABILITY_ASSESSMENT_FAILURES": {
+    "LOGGED_AT": {
+      "type": "TIMESTAMP(6)",
+      "size": 11
+    },
+    "ID": {
+      "type": "VARCHAR2",
+      "size": 256
+    },
+    "ADAPTER_INSTANCE_NAME": {
+      "type": "VARCHAR2",
+      "size": 256
+    },
+    "ADAPTER_INSTANCE_ID": {
+      "type": "VARCHAR2",
+      "size": 256
+    },
+    "VENDOR_NAME": {
+      "type": "VARCHAR2",
+      "size": 256
+    },
+    "ISE_NODE": {
+      "type": "VARCHAR2",
+      "size": 256
+    },
+    "MAC_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 256
+    },
+    "IP_ADDRESS": {
+      "type": "VARCHAR2",
+      "size": 256
+    },
+    "OPERATION_MESSSAGE_TEXT": {
+      "type": "VARCHAR2",
+      "size": 3900
+    },
+    "MESSAGE_TYPE": {
+      "type": "VARCHAR2",
+      "size": 256
+    }
+  }
+}

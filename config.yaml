@@ -1,0 +1,8 @@
+ise:
+  hostname: 'ISE-Hostname'
+  port: 2484
+  dataconnect_password: 'dataconnect-password'
+  log_path: '/Absolute/File/Path'
+  jar_file_path: '/Absolute/JRE/Path'
+  trust_store_path: '/Absolute/Trust_Store/Path'
+  trust_store_password: 'trust-store-password'
